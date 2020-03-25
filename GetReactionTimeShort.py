@@ -15,7 +15,7 @@ for item in description:
 row = 1
 column = 0
 
-path = "C:/Users/felix/Desktop/Hovedoppgave/Eksempelfiler" #Should be the path where your files are
+path = "C:/Users/felix/Desktop/" #The path where your files are located
 
 for filename in glob.glob(os.path.join(path, "*.txt")):
     with open(filename, "r+") as fo:
